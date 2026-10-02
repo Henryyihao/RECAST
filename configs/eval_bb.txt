@@ -1,0 +1,4 @@
+bolt_s checkpoints/bolt_s_v3.pt bolt_s_v3 --evidence_gate --separate_now_head --forecast_anchor --mult_head --mc_anchor
+bolt_b checkpoints/bolt_b_v3.pt bolt_b_v3 --evidence_gate --separate_now_head --forecast_anchor --mult_head --mc_anchor
+toto checkpoints/toto_v3.pt toto_v3 --evidence_gate --separate_now_head --forecast_anchor --mult_head --mc_anchor
+timemoe checkpoints/timemoe_v3.pt timemoe_v3 --evidence_gate --separate_now_head --forecast_anchor --mult_head --mc_anchor

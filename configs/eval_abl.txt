@@ -1,0 +1,19 @@
+# arch checkpoints tag extra-flags
+chronos2 checkpoints/abl2_main.pt abl2_main --evidence_gate --separate_now_head --forecast_anchor --mult_head --mc_anchor
+chronos2 checkpoints/abl2_noviews.pt abl2_noviews --evidence_gate --separate_now_head --forecast_anchor --mult_head --mc_anchor --ages none
+chronos2 checkpoints/abl2_nodistill.pt abl2_nodistill --evidence_gate --separate_now_head --forecast_anchor --mult_head --mc_anchor
+chronos2 checkpoints/abl2_noanchorfc.pt abl2_noanchorfc --evidence_gate --separate_now_head --mult_head
+chronos2 checkpoints/abl2_norev.pt abl2_norev --evidence_gate --separate_now_head --forecast_anchor --mult_head --mc_anchor --no_rev
+chronos2 checkpoints/abl2_nogate0.pt abl2_nogate0 --evidence_gate --separate_now_head --forecast_anchor --mult_head --mc_anchor --no_now_gate
+chronos2 checkpoints/abl2_gatefc.pt abl2_gatefc --evidence_gate --separate_now_head --forecast_anchor --mult_head --mc_anchor
+chronos2 checkpoints/abl2_noage.pt abl2_noage --evidence_gate --separate_now_head --forecast_anchor --mult_head --mc_anchor --no_age_channel --no_age_bias
+chronos2 checkpoints/abl2_views4.pt abl2_views4 --evidence_gate --separate_now_head --forecast_anchor --mult_head --mc_anchor --n_views 4
+chronos2 checkpoints/abl2_views8.pt abl2_views8 --evidence_gate --separate_now_head --forecast_anchor --mult_head --mc_anchor --n_views 8
+chronos2 checkpoints/abl2_nogate2.pt abl2_nogate2 --separate_now_head --forecast_anchor --mult_head --mc_anchor
+chronos2 checkpoints/abl2_backfill.pt abl2_backfill --evidence_gate --separate_now_head --forecast_anchor --mult_head --mc_anchor
+chronos2 checkpoints/abl2_nobackfill.pt abl2_nobackfill --evidence_gate --separate_now_head --forecast_anchor --mult_head --mc_anchor
+chronos2 checkpoints/abl2_nomod.pt abl2_nomod --evidence_gate --separate_now_head --forecast_anchor --mult_head --mc_anchor
+chronos2 checkpoints/abl2_synthbase.pt abl2_synthbase --evidence_gate --separate_now_head --forecast_anchor --mult_head --mc_anchor
+chronos2 checkpoints/abl2_light.pt abl2_light --evidence_gate --separate_now_head --forecast_anchor --mult_head --mc_anchor
+chronos2 checkpoints/abl_main7500.pt abl_main7500 --evidence_gate --separate_now_head --forecast_anchor --mult_head --mc_anchor
+chronos2 checkpoints/abl_shift.pt abl_shift --shift
